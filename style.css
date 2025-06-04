@@ -1,0 +1,7 @@
+*{          /*Univearl selector*/
+    color: green;
+}
+
+h1{          /*Element selector*/
+     color: red;
+}
