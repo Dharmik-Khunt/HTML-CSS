@@ -5,3 +5,14 @@
 h1{          /*Element selector*/
      color: red;
 }
+
+#headingOne{    /*ID selector (Not good practise to give same id to multiple element)*/
+    color: blue;
+    text-align: center;
+    text-decoration:green wavy underline;
+    font: weight 900px;;   /*font weight lies btw 100-900*/
+}
+
+.c{             /*class selector (when u want to give same style to multiple element then use class selector)*/
+    color: black;
+}
