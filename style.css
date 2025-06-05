@@ -10,7 +10,10 @@ h1{          /*Element selector*/
     color: blue;
     text-align: center;
     text-decoration:green wavy underline;
-    font: weight 900px;;   /*font weight lies btw 100-900*/
+    font-weight: 200;   /*font weight lies btw 100-900*/
+    font-family: system-ui;
+    font-size: 25px;
+    text-transform: lowercase;
 }
 
 .c{             /*class selector (when u want to give same style to multiple element then use class selector)*/
