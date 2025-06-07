@@ -1,0 +1,31 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#box1{
+    position: static; /* default position (top,right,left,bootom,z-index have no effect) */
+}
+
+#box2{
+    position: relative; /* realtive to itself (top,right,left,bootom have effect) */
+    top: 10px;
+    left: 10px;
+}
+
+#box3{
+    position: absolute; /* absolute to nearest positioned ancestor (top,right,left,bootom have effect) */
+    top: 20px;  /*Here parent for box3 is body so it will move from top of the page*/
+}
+
+#box4{  
+    position: fixed;    /* fixed to viewport (top,right,left,bootom have effect) */
+    right: 10px;
+}
+
+#box5{
+    position: sticky; /* positon based on user's scroll position */
+    top: 0px;
+}
