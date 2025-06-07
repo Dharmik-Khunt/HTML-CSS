@@ -19,3 +19,11 @@ h1{          /*Element selector*/
 .c{             /*class selector (when u want to give same style to multiple element then use class selector)*/
     color: black;
 }
+
+.d{
+    display: inline; /*inline occupy only space req by the element*/
+}
+
+button{
+    display: block; /*block will occupy full width of element*/
+}
