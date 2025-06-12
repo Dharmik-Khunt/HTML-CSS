@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: relative;
+    left: 100px;
+    top: 150px;
+    border-radius: 50%;
+
+    /*animation: name |duration| timing-function |delay |iteration-count| direction ;*/
+
+    animation: colorAnimate 2s infinite;
+}
+
+@keyframes colorAnimate {
+      0% {
+        transform: translate(0, 0);
+      }
+      25% {
+        transform: translate(50px, -60px); /* move up */
+      }
+      50% {
+        transform: translate(100px, 0); /* land */
+      }
+      75% {
+        transform: translate(150px, -60px); /* bounce again */
+      }
+      100% {
+        transform: translate(200px, 0); /* land again */}
+}

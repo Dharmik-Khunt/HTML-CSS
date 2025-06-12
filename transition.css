@@ -1,0 +1,24 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s; /*div take 2s to change their state*/
+    transition-timing-function: steps(3); /*animation*/
+    transition-delay: 1s; /*after 1s all changes are started*/
+
+    /*in one line : transition: all 2s steps(3) 1s [Properties|duration|timing-fxn|delay]*/
+}
+
+/*when we place cursor on div this property will applied*/
+div:hover{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}
+
+/*when we click and hold on div this property will applied*/
+div:active{
+    background-color: blueviolet;
+}

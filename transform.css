@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    left: 100px;  
+    top: 100px;
+    transition: all 2s ease-in;
+}
+
+div:hover{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    transform: scaleY(2); /*size will double on Y-axis*/
+    transform: rotate(90deg);
+    transform: translateY(50px); /*box will move 50 px in y-axis during hover */
+    transform: skew(90deg); /*box sui jahe*/
+}

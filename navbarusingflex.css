@@ -1,0 +1,30 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    
+}
+
+li{
+   list-style-type: none; 
+}
+
+.outer{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center; /* for horizontal axis (main axis) alligment*/
+    align-items: center; /* for vertical axis(cross axis) alligment*/
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(147, 35, 97);
+}
